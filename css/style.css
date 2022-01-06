@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+
+}
+
+.cabecalho{
+    background: linear-gradient(40deg, black, purple);
+}
+
+.logo{
+    height: 10em;
+}
+
+.menu{
+    display: flex;
+    justify-content: center ;
+}
+
+.menu a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blueviolet;
+    margin-right: 15px;
+    font-family: montserrat, Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    border: 2px solid ;
+    padding: 15px;
+    border-radius: 100px;
+    margin-top: 15px;
+}
