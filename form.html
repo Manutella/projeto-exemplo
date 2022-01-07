@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
     <title>Meu Projeto</title>
 </head>
 <body>
@@ -23,6 +24,38 @@
     
     </div>
 
-    Meu formulário
+<section>
+    <form class="formulario">
+
+        <div class="linha-formulario" >
+            <label for="name" class="label-grande">Nome:</label>
+            <input type="text" required name="name" id="name">
+        </div>
+        
+        <div class="linha-formulario" >
+            <label for="name" class="label-grande">Telefone:</label>
+            <input type="text" required name="phone" id="phone">
+        </div>
+        
+        <div class="linha-formulario xp-line" style="display: flex;">
+            <label class="label-grande xp-line">Experiência Prévia</label>
+
+            <div>
+                <input type="radio"  name="xp" id="xp-yes">
+                <label for="xp-yes" ">Sim</label>
+                <br>
+                <input type="radio" name="xp" id="xp-no">
+            <label for="xp-no">Não</label>
+            </div>
+
+        </div>
+        
+            <input type="submit" value="Salvar" class="button">
+
+
+
+    </form>
+</section>
+
 </body>
 </html>
