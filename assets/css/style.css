@@ -5,11 +5,14 @@ body{
 }
 
 .cabecalho{
-    background: linear-gradient(40deg, black, purple);
+    background: linear-gradient(40deg, #fff, #021189);
+    height: 50px;
 }
 
 .logo{
-    height: 10em;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
 }
 
 .menu{
@@ -21,7 +24,7 @@ body{
 .menu a{
     text-decoration: none;
     font-weight: bold;
-    color: #6A006A;
+    color: #021189;
     margin-right: 7px;
     margin-left: 7px;
     letter-spacing: 5px;
